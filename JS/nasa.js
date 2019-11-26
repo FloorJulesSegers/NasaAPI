@@ -1,5 +1,7 @@
 var APIkey = "uWIu8uv5Spy9wyE79E7UI6QzuSi1Seu9sX0ZYwaU";
 var nasaImg = document.getElementById("Planets");
+var explanationNASA = document.getElementById("explanation");
+
 
 
 
@@ -13,6 +15,7 @@ var nasaImg = document.getElementById("Planets");
     axios.get(`https://api.nasa.gov/planetary/apod?api_key=${APIkey}`)
       .then(function (response) {
         nasaImg.src = response.data.hdurl;
+        explanationNASA.innerHTML =response.data.explanation;
 
 
         // handle success

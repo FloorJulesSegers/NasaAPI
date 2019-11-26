@@ -12,18 +12,20 @@
 </head>
 
 <body>
-    <a href="index.html">Star Wars movies</a>
-    <a href="starship.html">Starships</a>
-    <a href="translate.html">Translation</a>
-    <a href="nasa.html">Nasa</a>
-
     <p>NASA picture of the day</p>
     <div id="frame">
             <div id="border">
-              <img id="Planets" src="http://www.notshaw.com/raindropskeepfalling/wp-content/gallery/drawings-2013/2013-08-06-14-38-35.jpg" alt="Drawing">
-
+              <div class="content">
+                  <div class="content-overlay"></div>
+                  <img id="Planets"src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362">
+                  <div class="content-details fadeIn-bottom">
+                    <p id="explanation" class="content-title"></p>
+                  </div>
             </div>
           </div>
+
+
+
 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="./JS/nasa.js" async defer></script>
