@@ -5,7 +5,28 @@ body{
   font-family: 'Arima Madurai', cursive;
 }
 
+.topnav {
+  overflow: hidden;
+}
 
+.topnav a {
+  float: left;
+  color: #fc3d21;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #0b3d91;
+  color: #fc3d21;
+}
 .content .content-overlay {
   background: rgba(0,0,0,0.7);
   position: absolute;
@@ -62,13 +83,33 @@ body{
   top: 80%;
 }
 
-p{
+.titleNASA{
+  color:#0b3d91; 
   position:relative;
   padding:0;
-  margin-left:43%;
+  text-align: center;
   font-size: 30px;
   font-weight: bold;
 }
+
+#date{
+  position:relative;
+  padding:0;
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#art{
+  color: #fc3d21;
+  font-weight: 500;
+  position:relative;
+  padding:0;
+  font-size: 17px;
+  text-align: center;
+  font-weight: bold;
+}
+
 
 #frame{
   position:relative;
