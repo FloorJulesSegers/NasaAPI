@@ -33,7 +33,7 @@ Next step is generating the API key through your email adres.
 
 Nasa picture of the day
 
-<img width="2507" alt="Screenshot 2019-11-26 at 13 50 28" src="https://user-images.githubusercontent.com/49682756/69635549-ef852880-1054-11ea-872b-14cf670da013.png">
+<img width="2509" alt="Screenshot 2019-11-26 at 14 01 14" src="https://user-images.githubusercontent.com/49682756/69635690-43900d00-1055-11ea-9743-1681f8072556.png">
 
   
   
