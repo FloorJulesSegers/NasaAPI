@@ -3,7 +3,7 @@
 
 
 ## Project link
-[NASA_API](https://floorjulessegers.github.io/NasaAPI/)
+[NASA_API](https://floorjulessegers.github.io/NasaAPI/nasa.html)
 ## Built with
 - HTML
 - CSS
