@@ -1,45 +1,43 @@
 <!DOCTYPE html>
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
-    <link rel="stylesheet" href="./CSS/nasa.css">
+  <link rel="stylesheet" href="./CSS/nasa.css">
 </head>
 
 <body>
-    <div class="topnav">
-        <a class="active" href="nasa.html">Picture of the day</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
-      </div>
+  <div class="topnav">
+    <a class="active" href="nasa.html">Picture of the day</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </div>
 
-    <p class="titleNASA">NASA picture of the day</p>
-    <p id="date"></p>
-    <p id="art"></p>
-  
+  <p class="titleNASA">NASA picture of the day</p>
+  <p id="date"></p>
+  <p id="art"></p>
+  <p id="explanation" class="content-title"></p>
 
-    <div id="frame">
-            <div id="border">
-              <div class="content">
-                  <div class="content-overlay"></div>
-                  <img id="Planets"src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362">
-                  <div class="content-details fadeIn-bottom">
-                    <p id="explanation" class="content-title"></p>
-                  </div>
-            </div>
-          </div>
+
+
+  <div class="row">
+    <div class="column">
+      <iframe id="Planets2" als="Video of the day"></iframe>
+      <img id="Planets" alt="Image of the day">
+    </div>
+  </div>
 
 
 
 
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="./JS/nasa.js" async defer></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="./JS/nasa.js" async defer></script>
 </body>
 
 </html>
