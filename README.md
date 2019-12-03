@@ -36,6 +36,8 @@ Next step is generating the API key through your email adres.
 
 Nasa picture of the day
 
+(You may have some difficulties with displaying some images. Add extension: [Ignore X-Frame headers](https://chrome.google.com/webstore/detail/ignore-x-frame-headers/gleekbfjekiniecknbkamfmkohkpodhe) for the solution.
+
 <img width="2509" alt="Screenshot 2019-11-26 at 14 01 14" src="https://user-images.githubusercontent.com/49682756/69635690-43900d00-1055-11ea-9743-1681f8072556.png">
 
   
